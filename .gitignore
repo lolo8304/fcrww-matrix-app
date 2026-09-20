@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local configuration (VITE_* values are public in builds, never secrets)
+.env
+.env.*
+!.env.example
+
+# Credentials, browser profiles, and exported private data
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.har
+*.sqlite
+*.sqlite3
+*.db
+.auth/
+playwright-report/
+test-results/
+coverage/
+# Temporary local browser-verification fixtures
+.*-qa.html
+src/.*-qa.tsx
