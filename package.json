@@ -14,7 +14,7 @@
     "security:check": "node scripts/check-public-repo.mjs"
   },
   "dependencies": {
-    "@matrix-org/matrix-sdk-crypto-wasm": "^18.8.0",
+    "@matrix-org/matrix-sdk-crypto-wasm": "^18.9.0",
     "emoji-picker-react": "^4.22.2",
     "matrix-js-sdk": "^42.4.0",
     "react": "^19.3.0",
